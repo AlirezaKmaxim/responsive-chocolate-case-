@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
@@ -149,4 +149,11 @@ body {
     width: 70px;
     top: 65px;
     z-index: 900;
+}
+
+@media (width < 767px) {
+    body{
+        margin: 30px 0 ;
+    }
+    
 }
